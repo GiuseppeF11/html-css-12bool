@@ -19,6 +19,9 @@ section {
     text-align: center;
 }
 
+.row-reverse {
+    flex-direction: row-reverse;
+}
 
 /*    COLUMNS   */
 
