@@ -47,6 +47,10 @@ section {
     min-height: 40px;
 }
 
+.high-col {
+    min-height: 80px;
+}
+
 .col-1 {
     width: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
@@ -229,3 +233,34 @@ section {
     max-width: calc((100% / 12) * 12);
 }
 
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-sp-between {
+    justify-content: space-between;
+}
+
+.justify-sp-around {
+    justify-content: space-around;
+}
+
+.align-top {
+    align-items: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-bottom {
+    align-items: flex-end;
+}
