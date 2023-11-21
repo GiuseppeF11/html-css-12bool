@@ -5,6 +5,12 @@
     margin: 0 auto;
 }
 
+/*    SECTION    */
+
+section {
+    margin-bottom: 30px;
+}
+
 /*     ROW    */
 
 .row {
@@ -26,14 +32,16 @@
     background-color: #006CFA;
     color: white;
     border: 1px solid white;
-    padding: 10px 30px;
+    min-height: 40px;
+    padding: 10px;
 }
 
 .green {
     background-color: #00E165;
     color: white;
     border: 1px solid #006CFA;
-    padding: 10px 30px;
+    padding: 10px;
+    min-height: 40px;
 }
 
 .col-1 {
