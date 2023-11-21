@@ -22,10 +22,17 @@
     max-width: 100%;
 }
 
-.col-blue {
+.blue {
     background-color: #006CFA;
     color: white;
     border: 1px solid white;
+    padding: 10px 30px;
+}
+
+.green {
+    background-color: #00E165;
+    color: white;
+    border: 1px solid #006CFA;
     padding: 10px 30px;
 }
 
@@ -141,5 +148,73 @@
 
 .col-offset-12 {
     margin-left: calc((100% / 12) * 12);
+}
+
+/*     NESTED     */
+
+.nested-col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+.nested-col-1 {
+    width: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
+}
+
+.nested-col-2 {
+    width: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
+}
+
+.nested-col-3 {
+    width: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
+}
+
+.nested-col-4 {
+    width: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
+}
+
+.nested-col-5 {
+    width: calc((100% / 12) * 5);
+    max-width: calc((100% / 12) * 5);
+}
+
+.nested-col-6 {
+    width: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
+}
+
+.nested-col-7 {
+    width: calc((100% / 12) * 7);
+    max-width: calc((100% / 12) * 7);
+}
+
+.nested-col-8 {
+    width: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
+}
+
+.nested-col-9 {
+    width: calc((100% / 12) * 9);
+    max-width: calc((100% / 12) * 9);
+}
+
+.nested-col-10 {
+    width: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
+}
+
+.nested-col-11 {
+    width: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
+}
+
+.nested-col-12 {
+    width: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
 }
 
